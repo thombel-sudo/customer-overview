@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="336.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customeroverview.AddingCustomerController">
+   <children>
+      <Button layoutX="196.0" layoutY="284.0" mnemonicParsing="false" onAction="#btnAddCustomerClicked" text="Додати клієнта" />
+      <Button fx:id="btnReturn" layoutX="31.0" layoutY="284.0" mnemonicParsing="false" onAction="#btnReturn" text="Повернутись" />
+      <Label layoutX="36.0" layoutY="34.0" text="Ім'я" />
+      <Label layoutX="36.0" layoutY="74.0" text="Фамілія" />
+      <Label layoutX="36.0" layoutY="114.0" text="Номер" />
+      <Label layoutX="36.0" layoutY="154.0" text="Нас. пункт" />
+      <Label layoutX="36.0" layoutY="194.0" text="Адреса" />
+      <Label layoutX="36.0" layoutY="234.0" text="Сумма платежу" />
+      <TextField fx:id="tfName" layoutX="145.0" layoutY="30.0" />
+      <TextField fx:id="tfSurname" layoutX="145.0" layoutY="70.0" />
+      <TextField fx:id="tfNumber" layoutX="145.0" layoutY="110.0" />
+      <TextField fx:id="tfCity" layoutX="145.0" layoutY="150.0" />
+      <TextField fx:id="tfAddress" layoutX="145.0" layoutY="190.0" />
+      <TextField fx:id="tfPayment" layoutX="145.0" layoutY="230.0" />
+   </children>
+</AnchorPane>
